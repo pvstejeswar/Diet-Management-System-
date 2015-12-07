@@ -1,0 +1,224 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:id="@+id/main_table_layout"
+    android:background="#FFFFFF">
+
+    <!-- Row 1 with single column -->
+    <Button
+        android:id="@+id/goback"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:background="#323232"
+        android:layout_height="wrap_content" />
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="Results"
+            android:gravity="center"
+            android:layout_span="3"
+            android:padding="18dip"
+            android:background="#ff525252"
+            android:textColor="#ffff9441"/>
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/safetoeat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/moreinfo" />
+    <!-- Information below -->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/cell_21"
+            android:textSize="20dp"
+            android:text="Ingredients"
+            android:layout_weight="1"
+            android:background="#ff525252"
+            android:textColor="#ffff9441"
+            android:padding="20dip"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/cell_22"
+            android:textSize="20dp"
+            android:text="(in grams)"
+            android:layout_weight="1"
+            android:background="#ff525252"
+            android:textColor="#ffff9441"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+
+    <!-- Row 3 with 2 columns -->
+
+    <!--<TableRow-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:gravity="center_horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cell_31"-->
+    <!--android:text="Fats"-->
+    <!--android:textSize="16dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#dcdcdc"-->
+    <!--android:textColor="#000000"-->
+    <!--android:padding="18dip"-->
+    <!--android:gravity="center"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cell_32"-->
+    <!--android:textSize="16dp"-->
+    <!--android:text=" 300 "-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#dcdcdc"-->
+    <!--android:textColor="#000000"-->
+    <!--android:padding="18dip"-->
+    <!--android:gravity="center"/>-->
+    <!--</TableRow>-->
+
+    <!--&lt;!&ndash; Row 4 with 2 columns&ndash;&gt;-->
+    <!--<TableRow-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:gravity="center_horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cell_41"-->
+    <!--android:text="Sugars"-->
+    <!--android:textSize="16dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#dcdcdc"-->
+    <!--android:textColor="#000000"-->
+    <!--android:padding="18dip"-->
+    <!--android:gravity="center"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cell_42"-->
+    <!--android:textSize="16dp"-->
+    <!--android:text=" 700 "-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#dcdcdc"-->
+    <!--android:textColor="#000000"-->
+    <!--android:padding="18dip"-->
+    <!--android:gravity="center"/>-->
+    <!--</TableRow>-->
+
+    <!--&lt;!&ndash; Row 5 with 2 columns&ndash;&gt;-->
+    <!--<TableRow-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:gravity="center_horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cell_51"-->
+    <!--android:text="Carbs"-->
+    <!--android:textSize="16dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#dcdcdc"-->
+    <!--android:textColor="#000000"-->
+    <!--android:padding="18dip"-->
+    <!--android:gravity="center"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cell_52"-->
+    <!--android:textSize="16dp"-->
+    <!--android:text=" 270 "-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#dcdcdc"-->
+    <!--android:textColor="#000000"-->
+    <!--android:padding="18dip"-->
+    <!--android:gravity="center"/>-->
+    <!--</TableRow>-->
+
+    <!--&lt;!&ndash; Row 6 with 2 columns&ndash;&gt;-->
+    <!--<TableRow-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:gravity="center_horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cell_61"-->
+    <!--android:text="Peanuts"-->
+    <!--android:textSize="16dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#dcdcdc"-->
+    <!--android:textColor="#000000"-->
+    <!--android:padding="18dip"-->
+    <!--android:gravity="center"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cell_62"-->
+    <!--android:textSize="16dp"-->
+    <!--android:text=" 20 "-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#dcdcdc"-->
+    <!--android:textColor="#000000"-->
+    <!--android:padding="18dip"-->
+    <!--android:gravity="center"/>-->
+    <!--</TableRow>-->
+
+    <!--&lt;!&ndash; Row 7 with 2 columns&ndash;&gt;-->
+    <!--<TableRow-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:gravity="center_horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cell_71"-->
+    <!--android:text="Shellfish"-->
+    <!--android:textSize="16dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#dcdcdc"-->
+    <!--android:textColor="#000000"-->
+    <!--android:padding="18dip"-->
+    <!--android:gravity="center"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cell_72"-->
+    <!--android:textSize="16dp"-->
+    <!--android:text=" 60 "-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#dcdcdc"-->
+    <!--android:textColor="#000000"-->
+    <!--android:padding="18dip"-->
+    <!--android:gravity="center"/>-->
+    <!--</TableRow>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_height="wrap_content">-->
+
+
+
+    <!--</LinearLayout>-->
+
+</TableLayout>

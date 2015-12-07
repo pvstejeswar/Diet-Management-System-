@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Diet Management System</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_register">register</string>
+    <string name="title_activity_camera_">Camera_Activity</string>
+
+    <string name="button_camera">Camera_Activity</string>
+    <string name="image_cd_camera">Camera_Activity</string>
+    <string name="title_activity_activity_homepage">activity_homepage</string>
+    <string name="title_activity_homepage1">homepage1</string>
+    <string name="title_activity_homepage">homepage</string>
+
+    <string-array name="height">
+        <item>5.0</item>
+        <item>5.1</item>
+        <item>5.2</item>
+        <item>5.3</item>
+        <item>5.4</item>
+        <item>5.5</item>
+        <item>5.6</item>
+        <item>5.7</item>
+        <item>5.8</item>
+        <item>5.9</item>
+        <item>5.10</item>
+        <item>5.11</item>
+        <item>5.12</item>
+        <item>6.0</item>
+        <item>6.1</item>
+        <item>6.2</item>
+        <item>6.3</item>
+    </string-array>
+    <string name="title_activity_bargraphs">bargraphs</string>
+    <string name="title_activity_graphs">graphs</string>
+    <string name="title_activity_nutritable">nutritable</string>
+
+</resources>
